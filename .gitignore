@@ -1,8 +1,3 @@
-# Data
-/data/
-/data/*.db
-/data/.db
-
 # Mac OS-specific storage files
 .DS_Store
 
@@ -191,7 +186,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
-#database
-data/.db
-data/*.db
