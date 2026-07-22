@@ -15,3 +15,6 @@ run:
 
 test:
 	python -m pytest tests/
+
+dashboard:
+	python -m streamlit run app/dashboard.py

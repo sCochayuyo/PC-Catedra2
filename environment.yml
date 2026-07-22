@@ -7,12 +7,13 @@ dependencies:
   - black
   - flake8
   - pytest
-  - numpy
-  - numba
-  - plotly
-  - streamlit
+  - pandas
+  - "numpy<2.5"   
+  - numba       
   - pip
-  
   - pip:
       - sqlmodel
       - selenium
+      - plotly
+      - streamlit
+      - pandas-stubs
